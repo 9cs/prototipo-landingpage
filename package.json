@@ -35,7 +35,7 @@
     "wrangler": "^4.33.0"
   },
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "build:render": "node build-render.js",
     "build:simple": "npx vite build --config vite.config.render.ts",
     "cf-typegen": "wrangler types",
